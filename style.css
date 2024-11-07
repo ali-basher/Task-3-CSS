@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+div.card {
+    width: 357px;
+    height: 715px;
+    margin: 20px auto;
+    background-color: #151515;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    border-radius: 10px;
+}
+
+div.header {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: url('3D\ isometric\ .jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px 10px 30px 30px;
+}
+
+div.header div {
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    background-color: #d3496d;
+    padding: 10px 25px;
+    top: 15px;
+    right: 0px;
+    border-radius: 50px 0 0 50px;
+}
+
+div.content {
+    width: 90%;
+    padding: 20px;
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+div.content h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div.content p {
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+
+
+div.colors {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+div.colors div.area {
+    border-radius: 50%;
+    width: 60PX;
+    height: 60PX;
+}
+
+.one {
+    background-color: #BDA380;
+
+}
+
+.two {
+    background-color: #A9CC84;
+}
+
+.three {
+    background-color: #AC3D5A;
+}
+
+.four {
+    background-color: #837FAE;
+}
